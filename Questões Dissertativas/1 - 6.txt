@@ -1,0 +1,19 @@
+1)35
+
+2) == Significa que será feita uma comparação independente do tipo de variável
+   === Siginifica que será feita uma comparação e irá ser levada em conta o tipo de variável
+3) b - looping infinito.
+
+4)novoNumero = 9
+  a = 3
+
+5)
+
+console.info(a === b);       false
+console.info(a.nome === b.nome);  true
+console.dir(a);     objeto nome: "Maria"
+console.dir(b);    objeto nome: "Pedro"
+console.info(a.nome === b.nome); false
+
+6) x = 12
+   y = 19.5
