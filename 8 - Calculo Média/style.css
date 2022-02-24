@@ -9,7 +9,7 @@ body{
     width: 500px;
     margin: 0 auto;
     padding: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     box-shadow: 5px 5px 5px 5px #111;
 }
 .variasNotas{
@@ -17,12 +17,13 @@ body{
     width: 500px;
     margin: 0 auto;
     padding: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     box-shadow: 5px 5px 5px 5px #111;
     display: none;
     height: 100%;
 }
 .variasNotas input{
+    display: block;
     background-color: #fff;
     border: none;
     color: black;
@@ -51,4 +52,13 @@ button{
 }
 h1{
     font-size: 46px;
+}
+#variasNotas{
+    width: 100%;
+}
+#calcularMediaTotal{
+    display: none;
+}
+#mostrarNotas{
+    display: none;
 }

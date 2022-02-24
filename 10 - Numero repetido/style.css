@@ -1,28 +1,28 @@
-body{
+body {
     background-color: #333;
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.main{
+.main {
     background-color: #222;
     width: 500px;
     margin: 0 auto;
     padding: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     box-shadow: 5px 5px 5px 5px #111;
     text-align: center;
 }
-input{
+input {
     background-color: #333;
     border: none;
     color: #fff;
     font-size: 24px;
     width: 80%;
 }
-button{
+button {
     margin-top: 40px;
-    background-color: #8B008B; 
+    background-color: #8b008b;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -31,11 +31,14 @@ button{
     display: inline-block;
     font-size: 16px;
 }
-.repetidos{
+
+.repetidos {
     display: none;
 }
-.numeros{
+.numeros {
     display: none;
 }
-
-
+p {
+    font-size: 26px;
+    color: #fff;
+}

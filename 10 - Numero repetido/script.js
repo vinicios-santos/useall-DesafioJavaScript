@@ -37,8 +37,8 @@ function confereRepetidos() {
         }
     }
     if (resp == 1) {
-        alert(vetorRepetidos)
+        alert("Há valores repetidos")
     } else {
-        alert("Não")
+        alert("Não há valores repetidos")
     }
 }
