@@ -9,7 +9,7 @@ function troca() {
 
     n1 ^= n2
     n2 ^= n1
-    n1 ^= n2
+    n1 ^= n2 //esquema com tabela verdade com XOR para trocar os valores
 
 
     alert("Primeiro valor: " + n1 + "        Segundo valor:  " + n2)

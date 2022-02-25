@@ -4,9 +4,9 @@ document.querySelector('.repetidos').addEventListener('click', confereRepetidos)
 
 let posi = 0;
 let posiRepetidos = 0;
-let vetor = new Array(posi);
-let vetorRepetidos = new Array(posiRepetidos)
-let tamanho
+let vetor = new Array();
+let vetorRepetidos = new Array()
+let tamanho = 0;
 let i;
 let j;
 let resp = 0;
@@ -18,21 +18,22 @@ function adiciona() {
     let numero = document.querySelector('input').value;
     vetor.push(numero);
     console.log(vetor);
-    posi++
-    tamanho = posi;
-
+    tamanho++;
+    //toda vez que digitar um número e clicar em adicionar, colocar um valor em cada posição do array e um contador para saber quantas posições foram adicionadas.
 }
 function mostraNumeros() {
     alert(Array(vetor))
+    //função para mostrar os valores adicionados ao array
 }
 function confereRepetidos() {
-    console.log("entrou")
+
     for (i = 0; i <= tamanho; i++) {
         for (j = i + 1; j < tamanho; j++) {
             if (vetor[j] == vetor[i]) {
                 resp = 1;
                 vetorRepetidos.push(j);
-                posiRepetidos++
+
+                //2 for percorrem o vetor, um partindo da posição 0 e outro da posição 1, se os valores forem iguais retorna 1
             }
         }
     }

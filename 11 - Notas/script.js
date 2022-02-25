@@ -12,12 +12,12 @@ function saque() {
 
     let nota = parseInt(valor / 100);            //atribui a variável nota que será do tipo inteiro e o valor digitado pelo usuário divido por 100 será a quantidade de notas necessárias.
     if (nota > 0) {                              //confere se há necessidade de uma nota de 100 reais, caso não, passa pra próxima nota
-        let img = document.createElement("img"); //cria uma tag img
-        img.setAttribute('src', '100reais.jpg')  //atribui um src á imagem, no caso a nota de 100 reais
-        let p = document.createElement("p")      //cria uma tag p
+        let img = document.createElement("img");
+        img.setAttribute('src', '100reais.jpg')  //cria uma tag img atribui um src á imagem, no caso um imagem de uma nota de 100 reais
+        let p = document.createElement("p")
         p.textContent = (nota + "x");            //atribui a tag p a quantidade de notas de 100 reais
-        document.body.appendChild(p);            //manda a tag p pro body 
-        document.body.appendChild(img);          //manda a img pro body
+        document.body.appendChild(p);
+        document.body.appendChild(img);          //Coloca as tags criadas para o body
         valor = valor % 100;                     //pega o que sobrar da divisão por 100 e manda pro próximo if
     }                                            //repete o mesmo processo para as próximas notas
 
